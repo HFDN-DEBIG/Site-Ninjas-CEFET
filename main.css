@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+body {
+    background-image: url(img/bckg.png);
+}
+
+/* INTRODUÇÃO e SUB. */
+#logomarca {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Share Tech', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 56px;
+    margin-top: -10px;
+}
+#p1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    margin-bottom: -15px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.nota {
+    font-size: 15px;
+    font-style: italic;
+    color:whitesmoke;
+    opacity: 0.4;
+    margin-bottom: 10px;
+    background-color: darkslategray;
+  }
+
+/*Personalizar HyperLinks*/
+a:link {
+    color: darkblue;
+    text-decoration: none;
+  }
+a:visited {
+    color: blue;
+  }
+a:hover {
+    text-decoration: underline;
+    color: goldenrod;
+  }
+a:active {
+    color: black;
+}
